@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#40c0c0</color>
+    <color name="colorPrimaryDark">#20a0a0</color>
+    <color name="colorPrimary_of_end">#70e0e0</color>
+    <color name="colorPrimary_in_login_end">#70e0e0</color>
+
+
+    <color name="cardcolor">#fafafa</color>
+    <color name="kotobacolor">#777777</color>
+    <color name="subtextcolor">#aaaaaa</color>
+    <color name="barcolor">#dddddd</color>
+    <color name="black">#444444</color>
+    <color name="white">#ffffff</color>
+
+    <color name="fc_icon">#aacccc</color>
+    <color name="titlebarcolor">#6bc6c6</color>
+</resources>

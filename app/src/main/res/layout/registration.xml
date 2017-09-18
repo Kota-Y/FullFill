@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login_gradation"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="35dp"
+            android:src="@drawable/fullfill_title"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="アカウント作成"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:paddingBottom="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="ニックネーム (20字以内)"
+            android:background="@color/cardcolor"
+            android:theme="@style/EditTextHint"
+
+            android:id="@+id/edit_name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="17dp"
+            android:hint="ユーザーID (20字以内)"
+            android:background="@color/cardcolor"
+            android:theme="@style/EditTextHint"
+
+            android:id="@+id/edit_id"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="17dp"
+            android:hint="パスワードを入力 (8-20字)"
+            android:background="@color/cardcolor"
+            android:inputType="textPassword"
+            android:theme="@style/EditTextHint"
+
+            android:id="@+id/edit_pw"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="17dp"
+            android:hint="パスワードを再度入力"
+            android:background="@color/cardcolor"
+            android:inputType="textPassword"
+            android:theme="@style/EditTextHint"
+
+            android:id="@+id/edit_re_pw"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ご利用の前に"
+
+                android:id="@+id/goriyounomaeni"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="利用規約"
+                android:textColor="#5555ff"
+                android:layout_toRightOf="@id/goriyounomaeni"
+
+                android:id="@+id/to_terms_text"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="を確認してください"
+                android:layout_toRightOf="@id/to_terms_text"/>
+        </RelativeLayout>
+
+        <CheckBox
+            android:text="利用規約を確認した上で、利用規約に同意します"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/terms_check"
+
+            android:contextClickable="false"
+            android:checked="false"
+            tools:clickable="true"
+            android:cursorVisible="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+
+            android:id="@+id/attention"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="登録"
+
+            android:id="@+id/regiButton"
+
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</FrameLayout>

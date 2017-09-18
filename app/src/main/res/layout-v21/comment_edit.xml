@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login_gradation"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/cardcolor"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+
+        android:id="@+id/comment_each_RelativeLayout"
+        android:transitionName="hello comment">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+
+            android:id="@+id/icon_in_comment_edit"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="username"
+            android:textSize="@dimen/smaller_user_name"
+            android:textColor="@color/subtextcolor"
+            android:layout_toRightOf="@id/icon_in_comment_edit"
+
+            android:id="@+id/username_in_comment_edit"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:text="comment"
+            android:textColor="@color/subtextcolor"
+            android:textSize="@dimen/kotoba"
+            android:layout_toRightOf="@id/username_in_comment_edit"
+            android:layout_marginLeft="20dp"
+            android:theme="@style/EditTextStyle"
+
+            android:id="@+id/comment_text_edit"/>
+    </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/comment_each_RelativeLayout"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+
+            android:id="@+id/determine_to_delete_comment"
+
+            android:src="@drawable/ic_delete_white_18dp"
+            design:fabSize="mini"
+            design:backgroundTint="@color/subtextcolor"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="このコメントを削除"
+            android:textColor="@color/white"
+            android:layout_toLeftOf="@id/determine_to_delete_comment"
+            android:layout_marginRight="5dp"
+            android:layout_alignBottom="@id/determine_to_delete_comment"
+            android:gravity="center"
+
+            android:id="@+id/delete_text_comment"/>
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment_each_RelativeLayout"
+            android:layout_toLeftOf="@id/delete_text_comment"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+
+            android:id="@+id/determine_to_edit_comment"
+
+            android:src="@drawable/ic_create_white_18dp"
+            design:fabSize="mini"
+            design:backgroundTint="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="編集を更新"
+            android:textColor="@color/white"
+            android:layout_toLeftOf="@id/determine_to_edit_comment"
+            android:layout_marginRight="5dp"
+            android:layout_alignBottom="@id/determine_to_edit_comment"
+            android:gravity="center" />
+    </RelativeLayout>

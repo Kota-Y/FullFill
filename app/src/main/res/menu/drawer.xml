@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group
+        android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/navigation_yourbook"
+
+            android:icon="@drawable/ic_book_white_18dp"
+            android:checked="false"
+            android:title="あなただけのコトバ" />
+
+        <item
+            android:icon="@drawable/ic_person_add_white_18dp"
+            android:checked="false"
+            android:title="新規アカウント"
+
+            android:id="@+id/navigation_registration"/>
+
+        <item
+            android:icon="@drawable/ic_settings_white_18dp"
+            android:checked="false"
+            android:title="設定" />-->
+        <item
+            android:id="@+id/navigation_account_setting"
+
+            android:icon="@drawable/ic_person_white_18dp"
+            android:checked="false"
+            android:title="アカウント設定" />
+        <item
+            android:id="@+id/navigation_login"
+
+            android:icon="@drawable/ic_reply_white_18dp"
+            android:checked="false"
+            android:title="ログアウト" />
+    </group>
+    <group
+        android:id="@+id/menu_other"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_notification"
+
+            android:title="お知らせ" />
+        <item
+            android:id="@+id/navigation_about_fullfill"
+
+            android:title="FuLLFiLLとは" />
+        <item
+            android:id="@+id/navigation_privacy_policy"
+
+            android:title="プライバシーポリシー" />
+        <item
+            android:id="@+id/navigation_terms_of_service"
+
+            android:title="利用規約" />
+    </group>
+</menu>

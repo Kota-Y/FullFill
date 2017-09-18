@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:theme="@style/toolbarTheme"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@color/colorPrimary"
+
+        android:id="@+id/tool_bar_in_accountsettings">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+
+            android:id="@+id/icon_in_accountsettings"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@id/icon_in_accountsettings"
+
+            android:id="@+id/usersname_in_accountsettings"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_below="@id/usersname_in_accountsettings"
+
+            android:id="@+id/yourwords_in_accountsettings"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="ユーザ名"
+            android:layout_centerVertical="true"
+            android:theme="@style/EditTextStyle"
+
+            android:id="@+id/change_users_name"/>
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/change_users_name"
+            android:layout_alignTop="@id/change_users_name"
+            android:src="@drawable/ic_refresh_white_18dp"
+            design:fabSize="mini"
+            design:backgroundTint="@color/colorPrimary"
+            android:layout_marginLeft="5dp"
+
+            android:id="@+id/changename_button"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="あなたの好きなコトバ"
+            android:layout_below="@id/change_users_name"
+            android:theme="@style/EditTextStyle"
+
+            android:id="@+id/change_yourwords"/>
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/change_yourwords"
+            android:layout_alignTop="@id/change_yourwords"
+            android:src="@drawable/ic_refresh_white_18dp"
+            design:fabSize="mini"
+            design:backgroundTint="@color/colorPrimary"
+            android:layout_marginLeft="5dp"
+
+            android:id="@+id/changeword_button"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="新しいパスワード"
+            android:layout_below="@id/change_yourwords"
+            android:inputType="textPassword"
+            android:theme="@style/EditTextStyle"
+
+            android:id="@+id/change_yourpw"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="新しいパスワードを再入力"
+            android:layout_below="@id/change_yourpw"
+            android:inputType="textPassword"
+            android:theme="@style/EditTextStyle"
+
+            android:id="@+id/change_re_yourpw"/>
+
+        <TextView
+            android:text="アカウントの設定変更"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:layout_above="@+id/changename_button"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/kotobacolor"
+            android:textSize="15sp"
+            android:id="@+id/textView" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_refresh_white_18dp"
+            design:fabSize="mini"
+            design:backgroundTint="@color/colorPrimary"
+            android:layout_marginLeft="5dp"
+
+            android:id="@+id/changepw_button"
+            android:layout_alignTop="@+id/change_yourpw"
+            android:layout_toEndOf="@+id/change_yourpw" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login_gradation"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:src="@drawable/fullfill_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/icon_at_privacy"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="プライバシーポリシー"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/icon_at_privacy"
+
+        android:id="@+id/privacy_title"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/privacy_title"
+        android:layout_marginTop="10dp"
+        android:background="@color/cardcolor"
+
+        android:id="@+id/privacy_scroll">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+
+            android:id="@+id/privacy_policy"/>
+    </ScrollView>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="戻る"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/back_in_privacy"/>
+</RelativeLayout>

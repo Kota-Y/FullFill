@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base"/>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/white</item>
+
+        <item name="android:navigationBarColor">#222222</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+
+    </style>
+
+    <style name="toolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+
+    <style name="EditTextHint" parent="@style/TextAppearance.Design.Hint">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColorHint">@color/subtextcolor</item>
+    </style>
+
+    <style name="progressCircle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="android:Theme.Holo.Dialog" >
+        <item name="android:textColor" >#FFFFFF </item>
+        <item name="android:textSize" >20sp </item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:colorControlActivated">@color/colorPrimary</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+</resources>

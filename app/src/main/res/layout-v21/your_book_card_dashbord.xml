@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="8dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardBackgroundColor="@color/cardcolor"
+
+        android:id="@+id/yb_cardView">
+        //背景をグラデーションに
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/card_gradation"
+            android:scaleType="fitXY"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/cardRelative"
+
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginTop="30dp"
+
+                android:id="@+id/yb_kotoba"
+
+                android:gravity="center_vertical"
+                android:layout_gravity="left"
+                android:textSize="@dimen/kotoba"
+                android:textColor="@color/kotobacolor"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+
+                android:id="@+id/yb_whose"
+
+                android:layout_marginTop="20dp"
+                android:layout_alignRight="@id/yb_kotoba"
+                android:layout_below="@id/yb_kotoba"
+                android:textSize="@dimen/whose"
+                android:textColor="@color/subtextcolor"
+                android:layout_centerInParent="true"/>
+            <View
+                android:layout_height="1dp"
+                android:layout_width="wrap_content"
+                android:background="@color/barcolor"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/yb_whose"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+
+                android:id="@+id/bar"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_below="@id/bar"
+                android:gravity="center"
+
+                android:id="@+id/yb_icon_and_username">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="18dp"
+
+                    android:id="@+id/yb_users_icon"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp" />
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+
+                    android:id="@+id/yb_users_name"
+
+                    android:textSize="6sp"
+                    android:textColor="#aaaaaa" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/ic_bookmark_white_middle"
+                android:tint="@color/fc_icon"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/yb_icon_and_username"
+                android:layout_alignTop="@id/yb_icon_and_username"
+                android:layout_marginTop="5dp"
+
+                android:id="@+id/yb_favorited_icon" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/yb_favorited_icon"
+                android:layout_alignBottom="@id/yb_favorited_icon"
+
+                android:id="@+id/yb_how_favorited"
+
+                android:gravity="center"
+                android:textSize="@dimen/smaller_user_name"
+                android:textColor="@color/subtextcolor"/>
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_message_white_18dp"
+                android:tint="@color/fc_icon"
+                android:layout_toRightOf="@id/yb_how_favorited"
+                android:layout_alignBottom="@id/yb_how_favorited"
+
+                android:id="@+id/yb_comment_icon" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/yb_comment_icon"
+                android:layout_alignBottom="@id/yb_favorited_icon"
+
+                android:id="@+id/yb_how_commented"
+
+                android:gravity="center"
+                android:textSize="@dimen/smaller_user_name"
+                android:textColor="@color/subtextcolor"/>
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:tint="@color/colorPrimary"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+
+                android:id="@+id/yb_bookmark_sign"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

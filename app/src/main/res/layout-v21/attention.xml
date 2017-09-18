@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/attention"
+        android:textSize="13sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_marginTop="1.5dp" />
+</LinearLayout>
+
+
+
+
+<!--をjavaのクラスとして書いておく
+    // 注意文の作成
+    private void make_attention(String word){
+    LinearLayout inf = (LinearLayout) findViewById(R.id.inflate_layout);
+    LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+    LinearLayout linear = (LinearLayout) inflater.inflate(R.layout.attention, null);
+    TextView text = (TextView) linear.findViewById(R.id.attention);
+    text.setText(word);
+
+    inf.addView(linear);
+    }-->

@@ -1,0 +1,306 @@
+<resources>
+    <string name="app_name">FuLLFiLL</string>
+    <string name="empty"> </string>
+    <string name ="hello_world">your word is ...</string>
+    <string name="mother_teresa">短くて口に出しやすい言葉でも、心のこもった言葉はある。そんな言葉はいつまでも心の中に輝き続ける。\n〜Kind words can be short and easy to speak, but their echoes are truly endless.〜</string>
+    <string name="kosi">過ちてこれを改めざる。これを過ちといふ</string>
+    <string name="englishonly">we can solve this issue, so we should connect with each other </string>
+    <string name="transition_string">hello awesome</string>
+    <string name="for_transition">トランジションのために</string>
+    <string name="whose">(マザー・テレサ)</string>
+
+    <string name="searching_string_log">スティーブ・ジョブズ　織田信長　疲れた時</string>
+    <string name="searching_string_genre">恋愛(34),　仕事(53),　エール(14)\nキャッチコピー(23),　名言(52)</string>
+    <string name="searching_string_trend">PPAP,　大谷翔平,　テスラ・モーターズ\nMacbook Pro,　トランプ</string>
+
+    //-------------------------------------------------------------------------------
+
+    <string-array name="kotoba_list">
+        <item>人生に失敗した人の多くは、諦めた時に自分がどれほど成功に近づいていたか気づかなかった人たちだ。</item>
+        <item>自分の心にまっすぐに生きれば、\nチャンスは必ず訪れる。</item>
+        <item>Enjoy! Rule ＆ Manner\n楽しく学ぶ!</item>
+        <item>心折れないように頑張る</item>
+        <item>蝶はモグラではない。でも、そのことを残念に思う蝶はいないだろう。</item>
+        <item>第三者の評価を意識した生き方はしたくない。自分が納得した生き方をしたい。</item>
+        <item>みんなと同じ普通の人生は嫌なので、自分らしく生きてます。</item>
+        <item>つまらない人生を楽しくするのは、人生において最高の幸せである。</item>
+    </string-array>
+
+    <string-array name="whose_list">
+        <item>(トーマス・エジソン)</item>
+        <item> </item>
+        <item>(テラバル自動車学校)</item>
+        <item> </item>
+        <item>(アインシュタイン)</item>
+        <item>(イチロー)</item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="users_name_list">
+        <item>FuLLFiLL</item>
+        <item>n.k</item>
+        <item>テラバル自動車学校</item>
+        <item>ANNA</item>
+        <item>FuLLFiLL</item>
+        <item>FuLLFiLL</item>
+        <item>ありありんちょ</item>
+        <item>BAUBAU</item>
+    </string-array>
+
+    <string-array name="favorited_list">
+        <item>85</item>
+        <item>12</item>
+        <item>76</item>
+        <item>45</item>
+        <item>27</item>
+        <item>32</item>
+        <item>39</item>
+        <item>64</item>
+        <item>85</item>
+        <item>12</item>
+        <item>76</item>
+        <item>45</item>
+        <item>27</item>
+        <item>32</item>
+        <item>39</item>
+        <item>64</item>
+        <item>85</item>
+        <item>12</item>
+        <item>76</item>
+        <item>45</item>
+        <item>27</item>
+        <item>32</item>
+        <item>39</item>
+        <item>64</item>
+        <item>85</item>
+        <item>12</item>
+        <item>76</item>
+        <item>45</item>
+        <item>27</item>
+        <item>32</item>
+        <item>39</item>
+        <item>64</item>
+    </string-array>
+
+    <string-array name="commented_list">
+        <item>7</item>
+        <item>3</item>
+        <item>12</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>7</item>
+        <item>3</item>
+        <item>12</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>7</item>
+        <item>3</item>
+        <item>12</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>7</item>
+        <item>3</item>
+        <item>12</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>7</item>
+        <item>3</item>
+        <item>12</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+    </string-array>
+//---------------------------------------------------------------------------
+    <string-array name="favorited_kotoba_list">
+        <item>自分の心にまっすぐに生きれば、\nチャンスは必ず訪れる。</item>
+        <item>人生に失敗した人の多くは、諦めた時に自分がどれほど成功に近づいていたか気づかなかった人たちだ。</item>
+        <item>No rain, No rainbow</item>
+        <item>成功は誕生日みたいなもの。待ちに待った誕生日が来ても、自分は何も変わらないでしょ。</item>
+        <item>知っていると思いますが、私たちは自分たちの食べるもののほとんどを作ってはいません。私たちは他人の作った服を着て、他人の作ったコトバを喋り、他人が創造した数学を使っています。何が言いたいかというと、私たちは常に何かを受け取っているということです。そしてその人間の経験と知識の泉に何かをお返しができるようなものを作るのは、素晴らしい気分です。</item>
+        <item>蝶はモグラではない。でも、そのことを残念に思う蝶はいないだろう。</item>
+        <item>第三者の評価を意識した生き方はしたくない。自分が納得した生き方をしたい。</item>
+        <item>自分の心にまっすぐに生きれば、\nチャンスは必ず訪れる。</item>
+    </string-array>
+
+    <string-array name="favorited_whose_list">
+        <item></item>
+        <item>(トーマス・エジソン)</item>
+        <item>(ハワイのことわざ)</item>
+        <item>(オードリー・ヘップバーン)</item>
+        <item>(スティーブ・ジョブズ)</item>
+        <item>(アインシュタイン)</item>
+        <item>(イチロー)</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="favorited_users_name_list">
+        <item>n.k</item>
+        <item>FuLLFiLL</item>
+        <item>ひよこ</item>
+        <item>black_stone</item>
+        <item>BAUBAU</item>
+        <item>FuLLFiLL</item>
+        <item>FuLLFiLL</item>
+        <item>FuLLFiLL</item>
+    </string-array>
+
+    <string-array name="favorited_favorited_list">
+        <item>13</item>
+        <item>57</item>
+        <item>27</item>
+        <item>32</item>
+        <item>39</item>
+        <item>64</item>
+        <item>46</item>
+        <item>40</item>
+        <item>13</item>
+        <item>57</item>
+        <item>27</item>
+        <item>32</item>
+        <item>39</item>
+        <item>64</item>
+        <item>46</item>
+        <item>40</item>
+        <item>13</item>
+        <item>57</item>
+        <item>27</item>
+        <item>32</item>
+        <item>39</item>
+        <item>64</item>
+        <item>46</item>
+        <item>40</item>
+        <item>13</item>
+        <item>57</item>
+        <item>27</item>
+        <item>32</item>
+        <item>39</item>
+        <item>64</item>
+        <item>46</item>
+        <item>40</item>
+    </string-array>
+
+    <string-array name="favorited_commented_list">
+        <item>3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="search_posting_name">
+        <item>ニーチェ</item>
+        <item>シラー</item>
+        <item>スティーブ・ジョブズ</item>
+        <item>ナイチンゲール</item>
+        <item>ゲーテ</item>
+        <item>老子</item>
+        <item>ツルゲーネフ</item>
+        <item>ピーター・ドラッカー</item>
+        <item>ネルソン・マンデラ</item>
+        <item>ウィンストン・チャーチル</item>
+        <item>松下幸之助</item>
+        <item>セネカ</item>
+        <item>稲森和夫</item>
+        <item>トーマス・エジソン</item>
+        <item>ポアンカレ</item>
+        <item>孔子</item>
+        <item>チャップリン</item>
+        <item>アインシュタイン</item>
+        <item>ヴォルテール</item>
+        <item>ビル・ゲイツ</item>
+        <item>武者小路実篤</item>
+        <item>井上靖</item>
+        <item>ダンテ</item>
+        <item>相田みつを</item>
+        <item>ユング</item>
+        <item>ボブ・マーリー</item>
+        <item>モハメド・アリ</item>
+        <item>チャールズ・ダーウィン</item>
+        <item>エーリッヒ・フロム</item>
+        <item>リリアン・スミス</item>
+        <item>坂本龍馬</item>
+        <item>ヘミングウェイ</item>
+        <item>バーナード・ショー</item>
+        <item>瀬戸内寂聴</item>
+        <item>サンタヤーナ</item>
+        <item>テニスン</item>
+        <item>キルケゴール</item>
+        <item>ココ・シャネル</item>
+        <item>太宰治</item>
+        <item>バルザック</item>
+        <item>サラ・ベルナール</item>
+        <item>ウディ・アレン</item>
+        <item>シェイクスピア</item>
+        <item>サマセット・モーム</item>
+        <item>バルザック</item>
+    </string-array>
+
+    <string-array name="spinner_array">
+        <item>名言</item>
+        <item>キャッチコピー</item>
+        <item>恋愛</item>
+        <item>仕事</item>
+        <item>著名人</item>
+        <item>エール</item>
+        <item>人生</item>
+        <item>ネタ</item>
+        <item>自然</item>
+        <item>その他</item>
+    </string-array>
+
+    <string-array name="spinner_array2">
+        <item>(ここをタッチで選択)</item>
+        <item>名言</item>
+        <item>キャッチコピー</item>
+        <item>恋愛</item>
+        <item>仕事</item>
+        <item>著名人</item>
+        <item>エール</item>
+        <item>人生</item>
+        <item>ネタ</item>
+        <item>自然</item>
+        <item>その他</item>
+    </string-array>
+</resources>

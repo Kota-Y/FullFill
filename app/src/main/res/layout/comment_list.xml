@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:id="@+id/comment_each_RelativeLayout"
+        android:transitionName="hello comment">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+
+            android:id="@+id/icon_in_comment"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="username"
+            android:textSize="@dimen/smaller_user_name"
+            android:textColor="@color/subtextcolor"
+            android:layout_toRightOf="@id/icon_in_comment"
+
+            android:id="@+id/username_in_comment"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="comment"
+            android:textSize="@dimen/kotoba"
+            android:layout_toRightOf="@id/username_in_comment"
+            android:layout_marginLeft="20dp"
+
+            android:id="@+id/comment_text"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:tint="@color/subtextcolor"
+            android:layout_alignParentRight="true"
+
+            android:id="@+id/to_edit_button_in_comment"/>
+    </RelativeLayout>
+</LinearLayout>

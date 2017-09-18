@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="kotoba">12sp</dimen>
+    <dimen name="user_name">9sp</dimen>
+    <dimen name="star_comment">9sp</dimen>
+    <dimen name="whose">8sp</dimen>
+    <dimen name="bigger_kotoba">16sp</dimen>
+    <dimen name="biggest_kotoba">18sp</dimen>
+    <dimen name="bigger_user_name">15sp</dimen>
+    <dimen name="bigger_star_comment">15sp</dimen>
+    <dimen name="bigger_whose">12sp</dimen>
+    <dimen name="smaller_user_name">9sp</dimen>
+    <dimen name="title">20sp</dimen>
+</resources>

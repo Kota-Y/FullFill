@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.haruya.fullfill">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fullfill_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Login"
+            android:label="FuLLFiLL"/>
+        <activity
+            android:name=".Registration"
+            android:label="FuLLFiLL"/>
+        <activity
+            android:name=".Clickedcard"
+            android:label="@string/app_name"/>
+        <activity android:name=".Comment"
+            android:label="FuLLFiLL"/>
+        <activity
+            android:name=".Yourbook"
+            android:label="FuLLFiLL"/>
+        <activity
+            android:name=".Yourpost"
+            android:label="FuLLFiLL"/>
+        <activity
+            android:name=".Searching"
+            android:label="FuLLFiLl"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="FuLlFiLL"/>
+        <activity
+            android:name=".Addyourwords"
+            android:label="FuLlFiLL"/>
+        <activity
+            android:name=".Accountsettings"
+            android:label="FuLlFiLL"/>
+        <activity
+            android:name=".Kotobaedit"
+            android:label="FuLlFiLL"/>
+        <activity
+            android:name=".Commentedit"
+            android:label="FuLlFiLL"/>
+        <activity
+            android:name=".Terms_of_service"
+            android:label="FuLlFiLL"/>
+        <activity
+            android:name=".Privacy_policy"
+            android:label="FuLlFiLL"/>
+        <activity
+            android:name=".About_FuLLFiLL"
+            android:label="FuLlFiLL"/>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

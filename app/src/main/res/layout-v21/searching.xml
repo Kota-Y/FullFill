@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dddddd">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mypage_gradation"
+        android:scaleType="fitXY"/>
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:theme="@style/toolbarTheme"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@color/colorPrimary"
+
+        android:id="@+id/tool_bar_in_searching">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:src="@drawable/fullfill_title"
+            android:layout_marginRight="130dp"
+
+            android:id="@+id/toolbar_icon_in_searchview"/>
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tool_bar_in_searching"
+
+        android:id="@+id/scrollboss">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+
+        android:id="@+id/linear_boss">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:id="@+id/search_bosslayout">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+
+                android:id="@+id/searcing_list"/>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/tool_bar_in_searching"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+
+
+    android:id="@+id/radioboss">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ジャンルを選択することで、\nより詳細な検索が可能です"
+        android:textSize="14sp"
+
+        android:id="@+id/searcing_title"/>
+
+    <!--<RadioGroup
+        android:id="@+id/radiogroup"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <RadioButton android:id="@+id/radiobutton_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="名言"
+            android:textColor="@color/kotobacolor"/>
+        <RadioButton android:id="@+id/radiobutton_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="キャッチコピー"
+            android:textColor="@color/kotobacolor"/>
+        <RadioButton android:id="@+id/radiobutton_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="恋愛"
+            android:textColor="@color/kotobacolor"/>
+        <RadioButton android:id="@+id/radiobutton_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="仕事"
+            android:textColor="@color/kotobacolor"/>
+        <RadioButton android:id="@+id/radiobutton_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="エール"
+            android:textColor="@color/kotobacolor"/>
+        <RadioButton android:id="@+id/radiobutton_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="自然"
+            android:textColor="@color/kotobacolor"/>
+        <RadioButton android:id="@+id/radiobutton_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="ネタ"
+            android:textColor="@color/kotobacolor"/>
+        <RadioButton android:id="@+id/radiobutton_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="著名人"
+            android:textColor="@color/kotobacolor"/>
+        <RadioButton android:id="@+id/radiobutton_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="人生"
+            android:textColor="@color/kotobacolor"/>
+        <RadioButton android:id="@+id/radiobutton_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="その他"
+            android:textColor="@color/kotobacolor"/>
+    </RadioGroup>-->
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/spinner_searching" />
+    </LinearLayout>
+</RelativeLayout>
